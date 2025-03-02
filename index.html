@@ -11,21 +11,21 @@
 <body>
     <div class="card">
         <div class="search">
-            <input type="text" placeholder="Enter City name" spellcheck="false">
-            <button type="submit"><i class="fas fa-search" style="color: white;"></i>
+            <input type="text" id="city" placeholder="Enter City name" spellcheck="false">
+            <button id="submit"><i class="fas fa-search" style="color: white;"></i>
             </button>
         </div>
         <div class="weather">
-            <i class="fas fa-cloud" style="font-size: 90px; color:yellow"></i>
-            <h1>22&deg;C</h1>
-            <h2>NEW YORK CITY</h2>
+            <i id="main" class="fas fa-cloud" style="font-size: 90px; color:yellow"></i>
+            <h1 class="temp">22&deg;C</h1>
+            <h2 class="city"></h2>
             <div class="moredata">
                <div class="Humidity">
-                <p>64%</p>
+                <p id="humidity">64%</p>
                 <p>Humidity</p>
                 </div>
                 <div class="windspeed">
-                    <p>18 Km/H</p>
+                    <p id="windspeed">18 Km/H</p>
                     <p>Wind Speed</p>
                 </div>
             </div>

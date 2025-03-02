@@ -60,6 +60,7 @@ p,h1,h2{
     flex-direction: column;
     justify-content: center;
     margin-top: 10%;
+    display:none;
 }
 .moredata{
     display: flex;
